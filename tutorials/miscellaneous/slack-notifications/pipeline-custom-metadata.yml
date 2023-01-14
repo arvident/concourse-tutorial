@@ -14,7 +14,7 @@ resources:
     type: git
     source:
       uri: https://github.com/arvident/concourse-tutorial.git
-      branch: develop
+      branch: master
 
 jobs:
   - name: test

@@ -10,7 +10,7 @@ resources:
     type: git
     source:
       uri: https://github.com/arvident/concourse-tutorial.git
-      branch: develop
+      branch: master
   - name: notify
     type: slack-notification
     source:

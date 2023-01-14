@@ -4,7 +4,7 @@ resources:
     type: git
     source:
       uri: https://github.com/drnic/concourse-tutorial.git
-      branch: develop
+      branch: master
 
   - name: hello-world-docker-image
     type: registry-image
